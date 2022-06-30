@@ -1,0 +1,22 @@
+.principal .box{background: #c4c4c4;border-radius: 10px;padding: 16px 14px;min-height: 128px;margin-bottom: 60px;transition: all 0.5s ease;position: relative;}
+.principal .box:hover{background: #d1d1d1;}
+.principal .box.meio {margin: 0 35px 60px 35px;}
+    .principal .box h3{font-family: 'Inter'; font-weight: 600;}
+    .principal .box p{margin-top: 18px;}
+    .principal .box span.refresh{color: black;float: right;margin-top: 18px;}
+
+    .principal .box a:link,
+    .principal .box a:visited,
+    .principal .box a:active{position: absolute;top: 0;left: 0;width: 100%;height: 100%;padding: 9px;}
+    .principal .box a:hover{}
+    .principal .box a b{ font-family: 'Inter'; font-weight: 600; color: #212529; display: block; margin-bottom: 10px;}
+    .principal .box a span{}
+
+    .principal .boxGrid{text-align: center;}
+    .principal .boxGrid .box{min-height: 110px;}
+    .principal .boxGrid span img{display: block; margin: 0 auto;}
+
+    .principal .box h3{font-family: 'Inter'; font-weight: 600;}
+    .principal .box p{margin-top: 18px;font-family: 'Inter';font-size: 22px;font-weight: 700;float: left;}
+    .principal .box span.refresh{color: black;cursor: pointer;}
+

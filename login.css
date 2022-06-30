@@ -1,0 +1,39 @@
+.login .conteudoMeio{padding-bottom: 97px;}
+
+.login .botoes{width: 266px;margin: 0 auto;margin-top: 60px;display: flex;flex-wrap: wrap;flex-direction: row;justify-content: center;align-items: auto;align-content: start;}
+	.login .botoes a:link,
+	.login .botoes a:active,
+	.login .botoes a:visited{background: #d24e04;color: #fff;font-size: 17px;font-weight: 600;line-height: 44px;font-family: 'Raleway';display: block;border-radius: 28px;text-align: center;width: 120px;box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
+	.login .botoes a:hover{background: #000;}
+	.login .botoes a.login{margin-right: 20px;}
+
+	.login .botoes a.ativo{background: #ad8f00;}
+
+.login form{margin: 40px auto 0 auto;}
+	.login form .campos label{height: 20px;background: #c4c4c4;width: 100%;display: block;margin: 0 0 0 0;-webkit-border-top-left-radius: 10px;-webkit-border-top-right-radius: 10px;-moz-border-radius-topleft: 10px;-moz-border-radius-topright: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;padding: 0 20px 0 10px;font-size: 12px;font-weight: 600;line-height: 20px;}
+	.login form input[type=text],
+	.login form input[type=email],
+	.login form input[type=password]{background: #c4c4c4;height: 28px;line-height: 28px;width: 100%;display: block;margin: 0 0 15px 0;-webkit-border-bottom-right-radius: 10px;-webkit-border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;-moz-border-radius-bottomleft: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;padding: 0 20px 0 10px;}
+
+	.login form input[type=submit]{background: #d24e04;color: #fff;font-size: 17px;font-weight: 600;line-height: 44px;font-family: 'Raleway';display: block;border-radius: 28px;text-align: center;width: 120px;margin: 20px auto 0 auto;box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);transition: all 0.5s ease;}
+	.login form input[type=submit]:hover{background: #000;}
+
+	.login form {}
+	.login form .container{padding: 0 0;}
+	.login form .lembrar{}
+	.login form .lembrar label{ float: left; font-size: 12px; color: #fff;}
+	.login form .lembrar input[type=checkbox]{float: left; height: 18px; width: 18px;margin-right: 10px;}
+
+
+	.login form .esqueciSenha a:link,
+	.login form .esqueciSenha a:active,
+	.login form .esqueciSenha a:visited{font-size: 12px;text-align: right;display: block;color: #fff;text-decoration: underline;}
+	.login form .esqueciSenha a:hover{color: #d24e04;}
+
+
+	.login .redessociais{margin: 40px auto 0 auto; max-width: 270px;}
+	.login .redessociais a:link,
+	.login .redessociais a:active,
+	.login .redessociais a:visited{background: #c4c4c4;width: 100%;color: #1f1f1f;display: block;margin: 0 0 20px 0;padding: 10px 10px 10px 10px;line-height: 37px;border-radius: 10px;transition: all 0.5s ease;font-weight: 700;}
+	.login .redessociais a:hover{}
+	.login .redessociais a span{display: block; float: left; margin-right: 17px;}
